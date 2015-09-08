@@ -1,0 +1,61 @@
+body {
+  background-color: #ddd;
+  margin: 0;
+}
+.logo {
+  background-color: #f6f6f6;
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+  text-shadow: -0.2rem 0 0 #5ff, 0.2rem 0 0 #f66;
+}
+.logo-link {
+  color: #222;
+  text-decoration: none;
+}
+.nav-list {
+  background-color: #111;
+  font-family: 'Press Start 2P', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.nav-item {
+  display: inline-block;
+  margin: 0 1rem;
+}
+@-webkit-keyframes rainbow-text {
+  0% { color: #3ac; }
+  20% { color: #ac3; }
+  40% { color: #ca3; }
+  60% { color: #c3a; }
+  80% { color: #a3c; }
+  100% { color: #3ac; }
+}
+@keyframes rainbow-text {
+  0% { color: #3ac; }
+  20% { color: #ac3; }
+  40% { color: #ca3; }
+  60% { color: #c3a; }
+  80% { color: #a3c; }
+  100% { color: #3ac; }
+}
+.nav-link {
+  animation: rainbow-text 10s linear infinite;
+  -webkit-animation: rainbow-text 10s linear infinite;
+  color: #af0;
+  display: inline-block;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+.column {
+  display: block;
+  font-family: 'Sue Ellen Francisco', sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  max-width: 40rem;
+}
