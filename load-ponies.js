@@ -10,8 +10,7 @@ function loadPonies() {
     "showLoadProgress": false,
     "dontSpeak": true,
     "spawn": {
-      "sparkler": 1,
-      "twilight sparkle": 1
+      "lyra": 1,
     },
     "autostart": true
   };
