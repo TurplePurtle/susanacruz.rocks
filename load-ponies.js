@@ -1,4 +1,4 @@
-function loadPonies(cfg) {
+function loadPonies() {
   var cfg = {
     "baseurl": "https://panzi.github.io/Browser-Ponies/",
     "fadeDuration": 500,
@@ -19,3 +19,5 @@ function loadPonies(cfg) {
   BrowserPonies.loadConfig(BrowserPoniesBaseConfig);
   BrowserPonies.loadConfig(cfg);
 }
+
+loadPonies();
