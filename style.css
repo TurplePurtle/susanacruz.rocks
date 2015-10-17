@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ddd;
   background-image: url('img/bg.png');
@@ -7,11 +11,6 @@ body {
 a {
   color: #088;
   text-decoration: none;
-}
-
-h3 {
-  font-family: 'Press Start 2P', sans-serif;
-  margin: 1rem 0;
 }
 
 .logo {
@@ -29,58 +28,27 @@ h3 {
   color: #222;
 }
 
-nav {
-  background-color: #111;
-  font-family: 'Press Start 2P', sans-serif;
-  text-align: center;
-}
-
-nav > a {
-  -webkit-animation: rainbow-text 10s linear infinite;
-  animation: rainbow-text 10s linear infinite;
-  color: #af0;
-  display: inline-block;
-  margin: 0 1rem;
-  padding: 1rem 0;
-}
-
-@-webkit-keyframes rainbow-text {
-  0% { color: #3ac; }
-  20% { color: #ac3; }
-  40% { color: #ca3; }
-  60% { color: #c3a; }
-  80% { color: #a3c; }
-  100% { color: #3ac; }
-}
-@keyframes rainbow-text {
-  0% { color: #3ac; }
-  20% { color: #ac3; }
-  40% { color: #ca3; }
-  60% { color: #c3a; }
-  80% { color: #a3c; }
-  100% { color: #3ac; }
-}
-
-main {
+.box {
   background-color: rgba(255,255,255,0.5);
-  margin: 0 auto;
+  clear: both;
+  margin: 1rem auto;
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 0.5rem 1rem;
   max-width: 60rem;
 }
 
-section {
-  clear: both;
-  margin: 1rem;
-  overflow: hidden;
-}
+  .box > h3 {
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 1rem 0;
+  }
 
-section > p {
-  display: block;
-  font-family: 'Sue Ellen Francisco', sans-serif;
-  font-size: 1.5rem;
-  margin: 1rem 0;
-}
+  .box > p {
+    display: block;
+    font-family: 'Sue Ellen Francisco', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+  }
 
 .figure-left {
   border: 1px solid #000;
