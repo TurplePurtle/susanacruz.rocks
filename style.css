@@ -56,3 +56,17 @@ a {
   margin: 0 1rem 1rem 0;
   width: 20%;
 }
+
+.galeria { text-align: center; }
+
+.galeria img { width: 200px; }
+
+.navegacion {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navegacion a {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', sans-serif;
+
+}
