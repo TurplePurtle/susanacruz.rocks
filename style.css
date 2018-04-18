@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: #ddd;
-  background-image: url('img/bg.png');
+  background-color: #f6f6f6;
+  background-image: ;
   margin: 0;
 }
 
@@ -64,19 +64,85 @@ a {
   width: 200px;
 }
 
-.galeria { text-align: center; }
+.inicio {
+  margin: 12rem 0 0 0;
+  text-align: center;
+}
 
-.galeria img { width: 200px; }
+.standart {  }
+
+.imagenfondo {
+  width: 1000px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.imagentop {
+  width: 1000px;
+  position: absolute;
+  top: 200px;
+  left: 156px;
+
+ }
+
+.icono img { width:60px; }
 
 .navegacion {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 85%;
+  margin: auto;
+  padding: 0.6rem 0;
+  text-align: right;
+  position: sticky;
 }
-.navegacion a {
-  color: white;
-  font-size: 1.5rem;
-  font-family: 'Press Start 2P', sans-serif;
-  display: inline-block;
-  margin-right: 2rem;
-  margin-left: 2rem;
 
-}
+.navegacion img {
+  float: left;
+  width:60px;
+  margin: 0 0rem 0rem 0;
+  text-align: left;
+ }
+
+ .navegacion ul {
+   float:right;
+   list-style: none;
+   text-decoration: none;
+ }
+
+ .navegacion li {
+   display: inline-block;
+   float:left;
+   margin-left: 2rem
+ }
+
+ .navegacion a {
+   color: black;
+   font-size: 1rem;
+   font-family: 'Nanum Gothic Coding', monospace;
+ }
+
+ .navegacion a:hover {
+   color: #ed962d
+ }
+ .navegacion a:hover {
+   color: #ed962d
+ }
+ .navegacion a:hover {
+   color: #ed962d
+ }
+ .navegacion a:hover {
+   color: #ed962d
+ }
+
+ .parent {
+   margin: 0rem 0 0 0;
+   text-align: center;
+   position: relative;
+   top: 0;
+   left: 0;
+ }
+
+ .parent body {
+   background-image: ;
+ }
