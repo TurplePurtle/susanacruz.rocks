@@ -3,8 +3,7 @@
 }
 
 body {
-  background-color: #f6f6f6;
-  background-image: ;
+  background-color: #F22613;
   margin: 0;
 }
 
@@ -14,18 +13,11 @@ a {
 }
 
 .logo {
-  background-color: #f6f6f6;
-  font-family: 'Cookie', sans-serif;
-  font-size: 3rem;
-  letter-spacing: 0.25rem;
-  margin: 0;
-  padding: 0 1rem;
-  text-align: center;
-  text-shadow: -0.2rem 0 0 #5ff;
-}
-
-.logo > a {
-  color: #222;
+  float: left;
+  float: inherit;
+  padding: 0rem 0;
+  width: 60px;
+  margin: 0px;
 }
 
 .box {
@@ -64,86 +56,51 @@ a {
   width: 200px;
 }
 
-.inicio {
-  margin: 12rem 0 0 0;
-  text-align: center;
+
+.grande {
+  width: 1000px;
+  align-content: center;
 }
 
-.standart {  }
-
-.imagenfondo {
-  width: 1000px;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.imagentop {
-  width: 1000px;
-  position: absolute;
-  top: 200px;
-  left: 156px;
-
- }
-
-.icono img { width:60px; }
 
 .navegacion {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 85%;
+  background-color: rgba(255, 255, 255);
+  width: 100;
   margin: auto;
-  padding: 0.8rem 0;
+  padding: 0.8rem ;
+  padding-right: 6rem
   text-align: right;
   position: sticky;
 }
-
-.navegacion img {
-  float: left;
-  width:60px;
-  margin: 0 0rem 0rem 0;
-  text-align: left;
- }
 
  .navegacion ul {
    float:right;
    list-style: none;
    text-decoration: none;
+   padding: inherit;
  }
 
  .navegacion li {
    display: inline-block;
    float:left;
-   margin-left: 2rem
+   padding-top: 1rem
+      text-decoration: none;
+
  }
 
  .navegacion a {
    color: black;
    font-size: 1rem;
    font-family: 'Nanum Gothic Coding', monospace;
+   margin-left: 2rem
  }
 
- .navegacion a:hover {
-   color: #ed962d
- }
- .navegacion a:hover {
-   color: #ed962d
- }
- .navegacion a:hover {
-   color: #ed962d
- }
- .navegacion a:hover {
-   color: #ed962d
-   text-decoration: none;
- }
+.navegacion a:hover {
+  text-decoration: none;
+  color: #F7CA18;
+}
 
- .parent {
-   margin: 0rem 0 0 0;
-   text-align: center;
-   position: relative;
-   top: 0;
-   left: 0;
- }
+.galeria img {
+  width: 100px
 
- .parent body {
-   background-image: ;
- }
+}
