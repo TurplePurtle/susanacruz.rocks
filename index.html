@@ -6,35 +6,62 @@
 <title>Susana Cruz</title>
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Nanum+Gothic+Coding|Nixie+One|Poiret+One" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 <body>
 
 </head>
 
-<div class="navegacion">
-
-<a href="http://susanacruz.rocks/"><img src="img/favicon.png" class="logo">
-
-<ul>
-
-
-    <li><a class="ph" href="photography.html">photography</a></li>
-    <li><a href="painting.html">painting</a></li>
-    <li><a href="writing.html">writing</a></li>
-    <li><a href="extras.html">extras</a></li>
-
-
-</ul>
-
+<div class="wrapper">
+  <header>
+    <nav>
+      <div class="menu-icon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="logo">
+        <a href="http://susanacruz.rocks/"><img src="img/favicon.png" class="logo">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="photography.html">photography</a></li>
+          <li><a href="painting.html">painting</a></li>
+          <li><a href="writing.html">writing</a></li>
+          <li><a href="extras.html">extras</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 </div>
 
 <div class="grande">
     <img class= "grande" src="img/temporal.png">
 </div>
 
+<script type="text/javascript">
 
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
 
 
 

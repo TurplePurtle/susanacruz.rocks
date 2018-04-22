@@ -2,19 +2,29 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #F22613;
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
+
+body
 
 a {
   color: #088;
   text-decoration: none;
 }
 
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(img/fondo.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
 .logo {
+  position:absolute;
   float: left;
-  float: inherit;
   padding: 0rem 0;
   width: 60px;
   margin: 0px;
@@ -63,44 +73,88 @@ a {
 }
 
 
-.navegacion {
-  background-color: rgba(255, 255, 255);
-  width: 100;
-  margin: auto;
-  padding: 0.8rem ;
-  padding-right: 6rem
+nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
   text-align: right;
-  position: sticky;
 }
 
- .navegacion ul {
-   float:right;
-   list-style: none;
-   text-decoration: none;
-   padding: inherit;
+nav ul {
+  background-color: white;
+  float: right;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
  }
 
- .navegacion li {
-   display: inline-block;
-   float:left;
-   padding-top: 1rem
-      text-decoration: none;
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 24px
 
  }
 
- .navegacion a {
+nav ul li a {
    color: black;
    font-size: 1rem;
    font-family: 'Nanum Gothic Coding', monospace;
-   margin-left: 2rem
  }
 
-.navegacion a:hover {
+nav a:hover {
   text-decoration: none;
   color: #F7CA18;
 }
 
 .galeria img {
   width: 100px
+
+}
+
+.menu-icon {
+  width: 100%;
+  background: white;
+  text-align: right;
+  padding: 17px 24px;
+  cursor: pointer;
+  color: black;
+  display: none;
+}
+
+.menu {
+  background-color: white;
+  box-sizing: border-box;
+}
+
+@media(max-width: 700px) {
+
+      .logo {
+            position:fixed;
+            top: 0;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: white;
+      }
+
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
 
 }
