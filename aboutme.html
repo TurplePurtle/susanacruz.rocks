@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="img/favicon.png">
+<meta charset="utf-8">
+<title>Susana Cruz</title>
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Nanum+Gothic+Coding|Nixie+One|Poiret+One" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <nav>
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+          <a href="http://susanacruz.rocks/"><img src="img/favicon.png" class="logo">
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="photography.html">photography</a></li>
+            <li><a href="painting.html">painting</a></li>
+            <li><a href="extras.html">extras</a></li>
+            <li><a href="writing.html">about me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+  <script type="text/javascript">
+
+        // Menu-toggle button
+
+        $(document).ready(function() {
+              $(".menu-icon").on("click", function() {
+                    $("nav ul").toggleClass("showing");
+              });
+        });
+
+        // Scrolling Effect
+
+        $(window).on("scroll", function() {
+              if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+              }
+
+              else {
+                    $('nav').removeClass('black');
+              }
+        })
+
+
+        </script>
+
+<!-- Pony -->
+<script src="browser-ponies.min.js"></script>
+<script src="load-ponies.js"></script>
+
+</body>
+</html>

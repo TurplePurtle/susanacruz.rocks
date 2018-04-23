@@ -16,10 +16,10 @@ a {
 }
 
 header {
-  width: 100%;
-  height: 100vh;
-  background: url(img/fondo.jpg) no-repeat 50% 50%;
-  background-size: cover;
+  width: 90%;
+  height: 4rem;
+  background: no-repeat 50% 50%;
+  background-size:contain;
 }
 
 .logo {
@@ -35,13 +35,18 @@ header {
   clear: both;
   margin: 1rem auto;
   overflow: hidden;
-  padding: 0.5rem 1rem;
-  max-width: 60rem;
+  padding: 1rem 3rem;
 }
 
   .box > h3 {
     font-family: 'Press Start 2P', sans-serif;
     margin: 1rem 0;
+  }
+
+h1 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 1rem 3rem;
+    font-weight: lighter;
   }
 
   .box > p {
@@ -62,8 +67,7 @@ header {
 .figure-dos{
   border: 0px solid #000;
   float: left;
-  margin: 0 1rem 1rem 0;
-  width: 200px;
+  width: 400px;
 }
 
 
@@ -109,6 +113,17 @@ nav a:hover {
   color: #F7CA18;
 }
 
+.gal {
+  margin: .5rem;
+  font-size: 0;
+  display: inline-block;
+}
+
+.gal img {
+  width: 400px
+}
+
+
 .galeria img {
   width: 100px
 
@@ -125,6 +140,7 @@ nav a:hover {
 }
 
 .menu {
+  width: 95%;
   background-color: white;
   box-sizing: border-box;
 }
