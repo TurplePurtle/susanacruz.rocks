@@ -49,6 +49,13 @@ h1 {
     font-weight: lighter;
   }
 
+  h2 {
+      font-family: 'IBM Plex Mono', monospace;
+      margin: 1rem 3rem;
+      font-weight: lighter;
+      font-size: 1.2rem;
+    }
+
   .box > p {
     display: block;
     font-family: 'Lobster Two', sans-serif;
