@@ -73,15 +73,31 @@ h1 {
 
 .figure-dos{
   border: 0px solid #000;
-  float: left;
   width: 400px;
 }
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+}
 
 .grande {
   width: 1000px;
   align-content: center;
 }
+
+.socialbox {
+  float: right;
+  float: bottom;
+  padding: 0rem 0;
+  margin: 0rem;
+  display: inline-block;
+}
+
+.social {
+  width: 30px;
+}
+
 
 
 nav {
