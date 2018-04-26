@@ -71,14 +71,14 @@ h1 {
   width: 20%;
 }
 
-.figure-dos{
+.figure{
   border: 0px solid #000;
-  width: 400px;
+  width: 250px;
 }
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
+  grid-template-columns: repeat(auto-fill, 250px);
 }
 
 .grande {
@@ -166,11 +166,6 @@ nav a:hover {
   width: 95%;
   background-color: white;
   box-sizing: border-box;
-}
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
 }
 
 @media(max-width: 700px) {
