@@ -44,10 +44,7 @@ header {
   padding: 1rem 3rem;
 }
 
-  .box > h3 {
-    font-family: 'Press Start 2P', sans-serif;
-    margin: 1rem 0;
-  }
+
 
 h1 {
     font-family: 'Nanum Gothic Coding', monospace;
@@ -61,6 +58,13 @@ h1 {
       font-weight: lighter;
       font-size: 1.2rem;
     }
+
+  h3 {
+        font-family: 'Nanum Gothic Coding', monospace;
+        margin: 1rem 3rem;
+        font-weight: lighter;
+        font-size: 1rem;
+      }
 
   .box > p {
     display: block;
